@@ -1,9 +1,9 @@
-Package Sorter
+**Package Sorter**
 
 This is a small Python project that decides how to route packages in a warehouse.
 The main code is in code.py.
 
-How it works
+**How it works**
 
 A package is bulky if:
 
@@ -19,22 +19,20 @@ If it’s either bulky or heavy (but not both), it goes to SPECIAL.
 
 Otherwise, it’s a STANDARD package.
 
-Function
+**Function**
 
 The main function is called sort and lives inside code.py.
 It returns one of: STANDARD, SPECIAL, or REJECTED.
 
-Running the code
 
-Make sure you have Python 3 installed.
 
-Open a terminal and run:
+**Open a terminal and run:**
 
 python code.py
 
 You can edit the dimensions and mass in code.py to test with different packages.
 
-Tests
+**Tests**
 
 Some simple test cases are included to check edge conditions:
 
